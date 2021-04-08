@@ -1,0 +1,48 @@
+.card {
+  box-shadow: 0 1px 11px 0 rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+  border: 0;
+}
+.card-header {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+}
+.card-header h5 {
+  font-size: 18px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.user-status table tbody tr td {
+  vertical-align: middle;
+  color: #333;
+}
+.bio-row {
+  border-radius: 5px;
+  float: left;
+  margin-bottom: 10px;
+  padding: 0 5px;
+  background-color: #fff;
+  color: #797979;
+}
+.badge-primary {
+  border: 2px solid #8075c4;
+}
+.badge-info {
+  border: 2px solid #41cac0;
+}
+.badge-warning {
+  border: 2px solid #fcb322;
+}
+.badge-success {
+  border: 2px solid #a9d86e;
+}
+.table {
+  margin: 0;
+}

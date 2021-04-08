@@ -1,0 +1,31 @@
+<div class="container-fluid" *ngIf="isWeather">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="weather-category">
+                <ul>
+                    <li>
+                        <h5>Country</h5>
+                        <h4>{{weather.city.country}}</h4>
+                    </li>
+                    <li>
+                        <h5>City Name</h5>
+                        <h4>{{weather.city.name}}</h4>
+                    </li>
+                    <li>
+                        <h5>Population</h5>
+                        <h4>{{weather.city.population}}</h4>
+                    </li>
+                    <li>
+                        <h5>Sunrise</h5>
+                        <h4>{{weather.city.sunrise}}</h4>
+                    </li>
+                    <li>
+                        <h5>Sunset</h5>
+                        <h4>{{weather.city.sunset}}</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <app-weather-box [weatherList]="weather.list"></app-weather-box>
+</div>

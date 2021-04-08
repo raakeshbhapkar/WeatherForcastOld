@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="col-md-6" *ngFor="let weather of weatherList">
+        <div class="height-equal equal-height-lg card ">
+            <div class="card-header">
+                <h5>{{weather.dt_txt}}</h5>
+            </div>
+            <div class="card-body">
+                <div class="user-status height-scroll custom-scrollbar">
+                    <div>
+                    </div>
+                    <table class="table table-borderless">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="pt-0">Clouds</th>
+                                <th scope="col" class="pt-0">Temprature</th>
+                                <th scope="col" class="pt-0">Weather</th>
+                                <th scope="col" class="pt-0">wind</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="bio-row badge-primary">{{weather.clouds.all}} </div>
+                                </td>
+                                <td>
+                                    <div class="bio-row badge-info"> {{weather.main.temp}}</div>
+                                </td>
+                                <td>
+                                    <div class="bio-row badge-warning"> {{weather.weather[0].description}} </div>
+                                </td>
+                                <td>
+                                    <div class="bio-row badge-success">{{weather.wind.speed}}</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

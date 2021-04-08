@@ -1,0 +1,37 @@
+.clr {
+  clear: both;
+}
+.weather-category {
+  padding: 15px 0;
+  color: #74829c;
+}
+.weather-category ul {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+}
+.weather-category ul li {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  border-right: 1px solid #e6e6e6;
+  display: inline-block;
+}
+.weather-category ul li:last-child {
+  border: none;
+}
+
+.weather-category ul li h5 {
+  margin: 0 0 5px 0;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+}
+.weather-category ul li h4 {
+  margin: 0 0 5px 0;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 18px;
+  color: #ab8ce4 !important;
+}
